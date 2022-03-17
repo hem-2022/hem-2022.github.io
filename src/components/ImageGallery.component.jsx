@@ -18,7 +18,7 @@ const images = [
 
 class HEMGallery extends React.Component {
   render() {
-    return <ImageGallery items={images} showBullets={true} />;
+    return <ImageGallery items={images} showIndex={true} />;
   }
 }
 

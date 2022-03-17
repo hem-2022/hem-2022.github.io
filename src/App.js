@@ -3,10 +3,8 @@ import HEMGallery from'./components/ImageGallery.component';
 
 function App() {
   return (
-    <div>
+    <div className='gallery-container'>
       <HEMGallery/>
-      {/* <img src='https://drive.google.com/uc?export=view&id=16nZUZCIfL71vcEMALlm5IE8ZQNUN2Ui4' /> */}
-
     </div>
   );
 }
